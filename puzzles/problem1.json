@@ -1,0 +1,13 @@
+{
+  "grid_size": 6,
+  "drones": [
+    {"id": "drone_1", "x": 0, "y": 0, "shape": "any",    "size": "any", "color": "mediumpurple"},
+    {"id": "drone_2", "x": 5, "y": 0, "shape": "any",    "size": "any", "color": "darkturquoise"},
+    {"id": "drone_3", "x": 2, "y": 3, "shape": "square", "size": 4,     "color": "deepskyblue"},
+    {"id": "drone_4", "x": 3, "y": 3, "shape": "square", "size": 9,     "color": "darkgoldenrod"},
+    {"id": "drone_5", "x": 0, "y": 4, "shape": "any",    "size": 3,     "color": "sandybrown"},
+    {"id": "drone_6", "x": 5, "y": 4, "shape": "any",    "size": 5,     "color": "indianred"},
+    {"id": "drone_7", "x": 2, "y": 5, "shape": "any",    "size": 3,     "color": "mediumseagreen"},
+    {"id": "drone_8", "x": 3, "y": 5, "shape": "any",    "size": 3,     "color": "slateblue"}
+  ]
+}
