@@ -1,0 +1,17 @@
+name: tests
+
+on:
+  pull_request:          # run on every PR
+  push:
+    branches: [main]     # and again after a merge lands on main
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4          # copy the repo onto GitHub's machine
+      - uses: actions/setup-python@v5      # install Python
+        with:
+          python-version: "3.12"           # same version you use locally
+      - run: pip install -r requirements.txt
+      - run: pytest
